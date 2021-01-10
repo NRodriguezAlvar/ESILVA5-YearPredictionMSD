@@ -4,7 +4,7 @@
 * Théophile PUISEUX
 * Nieves RODRIGUEZ ALVAR
 
-## //! Important Information !\\
+## Important Information
 This project was first committed on the jan 09 2021 in another repo without the large files due to the git limitation of 25 MB.
 We used Git LFS and committed again on the jan 10 2021 without any modification of the code.
 One model .sav is compressed since it was over the 100 MB supported by Git LFS. To test the app, the user must unzip this file.
