@@ -4,6 +4,13 @@
 * Théophile PUISEUX
 * Nieves RODRIGUEZ ALVAR
 
+## Important Information
+This projet was first committed on the jan 09 2021 in an other repo without the large files due to the git limitation of 25MB.
+We used Git LFS and committed again on the jan 10 2021 without any modification to the code.
+One model .sav is compressed since it was bigger than the 100MB supported by Git LFS.
+
+The original committed project can be found at : https://github.com/NRodriguezAlvar/ESILVA5-YearPredictionMSD-original
+
 ## Projet goal
 The Million Song Dataset (MSD) is a freely-available collection of audio features and metadata for a million contemporary popular music tracks. 
 The purpose being to predict the release year of a song from audio features.
@@ -11,13 +18,6 @@ The purpose being to predict the release year of a song from audio features.
 Songs in the dataset are mostly western, commercial tracks ranging from 1922 to 2011, with a peak in the year 2000s.
 
 Due to the large spectrum of possible values (89 years), we decide that it was better to predict the decade of the release year. We thus did a classification.
-
-## Important Information
-This projet was first committed on the jan 09 2021 in an other repo without the large file due to git limitation to 25mb.
-We used Git LFS and committed again on the jan 10 2021 without any modification to the code.
-One model .sav is compressed since it was bigger than the 100mB supported by Git LFS.
-
-The original committed project can be found at : https://github.com/NRodriguezAlvar/ESILVA5-YearPredictionMSD-original
 
 ## Dataset description
 There are 90 attributes :
