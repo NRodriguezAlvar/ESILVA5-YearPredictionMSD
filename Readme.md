@@ -4,10 +4,10 @@
 * Théophile PUISEUX
 * Nieves RODRIGUEZ ALVAR
 
-## Important Information
-This projet was first committed on the jan 09 2021 in an other repo without the large files due to the git limitation of 25MB.
-We used Git LFS and committed again on the jan 10 2021 without any modification to the code.
-One model .sav is compressed since it was bigger than the 100MB supported by Git LFS.
+## //! Important Information !\\
+This project was first committed on the jan 09 2021 in another repo without the large files due to the git limitation of 25 MB.
+We used Git LFS and committed again on the jan 10 2021 without any modification of the code.
+One model .sav is compressed since it was over the 100 MB supported by Git LFS. To test the app, the user must unzip this file.
 
 The original committed project can be found at : https://github.com/NRodriguezAlvar/ESILVA5-YearPredictionMSD-original
 
@@ -47,7 +47,7 @@ We then decided to do regression, considering the decade as a continuous value. 
 * Elastic Net : Elastic net is a popular type of regularized linear regression that combines two popular penalties, specifically the L1 and L2 penalty functions. [Learn More Here](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.ElasticNet.html "Learn More Here").
 
 ## Web App
-A web application was made using bootsrap (frontend) and Flask (backend).
+A web application was made using bootstrap (front-end) and Flask (back-end).
 
 Due to the large spectrum of possible values (89 years) and the imbalanced data, we decide that it was better to predict the decade of the release year.
 
